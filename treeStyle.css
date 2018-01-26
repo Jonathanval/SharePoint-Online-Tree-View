@@ -1,0 +1,58 @@
+/*************************** Attributions ***************************/
+/***********- Jonathan Valdes SharePoint Specialist -****************/
+/****************** - jonny_cage1@hotmail.com -**********************/
+/********************************************************************/
+.ms-core-listMenu-verticalBox{
+    font-size: 10pt;
+    padding: 0px;
+    margin: 0px;
+}
+.ms-core-listMenu-verticalBox ul {
+    list-style: none outside none;
+}
+.ms-core-listMenu-verticalBox li a {
+    line-height: 21px;
+    padding: 3px 30px !important;
+}
+.ms-core-listMenu-verticalBox > ul > li > a {
+    color: #3B4C56;
+    display: block;
+    font-weight: normal;
+    position: relative;
+    text-decoration: none;
+}
+.ms-core-listMenu-verticalBox li.parent > a {
+    padding: 0px 0px 5px 15px !important;
+}
+.ms-core-listMenu-verticalBox ul.dynamic {
+    display: none;
+    position: initial !important;
+}
+.ms-core-listMenu-verticalBox ul li ul {
+    border-left: 1px solid #D9DADB !important;
+    display: none;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    box-shadow: none !important;
+}
+.ms-core-listMenu-verticalBox ul li ul li {
+    position: relative;
+}
+.ms-core-listMenu-verticalBox ul li ul li:before {
+    border-bottom: 1px dashed #E2E2E3;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 12px;
+    width: 15px;
+}
+.ms-core-listMenu-verticalBox {
+    margin: 0 auto;
+}
+.parent{
+
+}
+.active{
+
+}
